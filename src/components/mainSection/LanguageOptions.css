@@ -1,0 +1,20 @@
+/* Styles for the container with the `language-options` class */
+.language-options {
+  font-size: small;
+  margin-bottom: 24px;
+  color: var(--bbQxAb);
+  display: inline-block;
+  line-height: 28px;
+}
+
+/* Styles for anchor (`<a>`) elements within the `language-options` container */
+.language-options a {
+  padding: 0 3px;
+  color: var(--JKqx2);
+  text-decoration: none;
+}
+
+/* Styles for anchor elements within the `language-options` container when hovered */
+.language-options a:hover {
+  text-decoration: underline;
+}

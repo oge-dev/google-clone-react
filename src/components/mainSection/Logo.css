@@ -1,0 +1,5 @@
+/* Styles for the image within the `.logo` class */
+.logo img {
+  width: 272px;
+  height: 92px;
+}

@@ -1,0 +1,32 @@
+/* Container for search buttons with padding and minimum height */
+.search-buttons {
+  padding: 0 18px;
+  min-height: 70px;
+}
+/* Styles for buttons inside the .search-buttons container */
+.search-buttons button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0px 1px 2px #f8f9fa;
+  transition: box-shadow 0.3s ease-in-out;
+}
+/* Hover state for the button */
+.search-buttons button:hover {
+  box-shadow: 0px 0px 0px 1px #dadce0;
+}
+/* Additional styling for hover state (pseudo-element) */
+.search-buttons button:hover::after {
+  opacity: 1;
+}
